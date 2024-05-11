@@ -9,7 +9,7 @@
 
 (def routes
   (route/expand-routes
-   #{["/ping" :get ping/pong :route-name]}))
+   #{["/ping" :get ping/pong :route-name :ping]}))
 
 (defn create-server [config]
   (http/create-server
@@ -23,7 +23,7 @@
 
 (defn real-worl-clojure-app-system
   [config]
-  (component/system-map 
+  (component/system-map
    :example-component (example-component/new-example-component config)))
 
 (defn -main
@@ -33,8 +33,7 @@
                    (component/start-system))]
     (println "Starting Real World Clojure API Service " system)
     ;; (start system)
-    (.addShutdownHook 
+    (.addShutdownHook
      (Runtime/getRuntime)
-     (new Thread #(component/stop-system system)))
-    ))
+     (new Thread #(component/stop-system system)))))
 

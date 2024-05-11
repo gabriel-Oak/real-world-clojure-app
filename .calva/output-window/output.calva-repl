@@ -36,16 +36,43 @@ You can configure this with the setting:
 ;   - See https://calva.io/connect-sequences/
 ; 
 
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; Interrupting Jack-in process.
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless)
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
 
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; Using host:port 127.0.0.1:42327 ...
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:35959 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
@@ -56,67 +83,15 @@ about why stdout printed to this file is prepended with `;` to be line comments.
 clj꞉real-worl-clojure-app.core꞉> 
 ; Jack-in done.
 clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-9
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:1:8399).
-; Unable to resolve symbol: hi in this context
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-; Hello, World!
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Hello, World!
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-; Hello, World!
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-"Hello, World!"
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:1:8399).
-; Unable to resolve symbol: & in this context
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:1:8399).
-; Unable to resolve symbol: do in this context
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-"Hello, World!"
-clj꞉real-worl-clojure-app.core꞉> 
-; nREPL Connection was closed
-; Jacking in...
+[com.stuartsierra/component.repl "0.2.0"]; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
 
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; Using host:port 127.0.0.1:42601 ...
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:35947 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
@@ -124,115 +99,35 @@ nil
 clj꞉real-worl-clojure-app.core꞉> 
 ; Jack-in done.
 clj꞉real-worl-clojure-app.core꞉> 
+(component-repl/reset)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:102:1).
+; No such namespace: component-repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; :reloading (real-worl-clojure-app.config real-worl-clojure-app.ping real-worl-clojure-app.components.example-component real-worl-clojure-app.core real-worl-clojure-app.core-test)
+; :error-while-loading real-worl-clojure-app.core-test
+; Execution error at real-worl-clojure-app.core-test/eval11088$loading (core_test.clj:1).
+; No namespace: real-worl-clojure-app.core
+clj꞉real-worl-clojure-app.core꞉> 
+#'real-worl-clojure-app.core-test/a-test
+clj꞉real-worl-clojure-app.core-test꞉> 
+(a-test)
+; 
+; FAIL in (a-test) (form-init9199999185592463868.clj:7)
+; FIXME, I fail.
+; expected: (= 0 1)
+;   actual: (not (= 0 1))
 nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-[]
-clj꞉real-worl-clojure-app.config꞉> 
-[]
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error (ClassNotFoundException) compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; aero.core
-clj꞉real-worl-clojure-app.config꞉> 
-"config.edn"
-clj꞉real-worl-clojure-app.config꞉> 
-"target/%s"
-clj꞉user꞉> 
-"config.edn"
-clj꞉real-worl-clojure-app.config꞉> 
-"config.edn"
-clj꞉real-worl-clojure-app.config꞉> 
-"config.edns"
-clj꞉real-worl-clojure-app.config꞉> 
-#function[clojure.java.io/resource]
-clj꞉real-worl-clojure-app.config꞉> 
-#function[clojure.java.io/resource]
-clj꞉real-worl-clojure-app.config꞉> 
-(read-config)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:1:8398).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-(read-config)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:165:1).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-(read-config)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:178:1).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (.calva/output-window/output.calva-repl:178:1).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: booss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: hello in this context
-clj꞉real-worl-clojure-app.config꞉> 
-"hello booss"
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
+clj꞉real-worl-clojure-app.core-test꞉> 
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
 
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
 ; nREPL Connection was closed
-; Using host:port 127.0.0.1:43163 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:15:1).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:44007 ...
+; Using host:port 127.0.0.1:35225 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
@@ -240,30 +135,27 @@ nil
 clj꞉real-worl-clojure-app.core꞉> 
 ; Jack-in done.
 clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/config.clj:16:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/test.clj:7:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.test꞉> 
-; nREPL Connection was closed
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
 ; You can make Calva auto-select this.
 ;   - See https://calva.io/connect-sequences/
 ; 
 
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; Using host:port 127.0.0.1:38243 ...
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:33123 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
@@ -271,83 +163,25 @@ nil
 clj꞉real-worl-clojure-app.core꞉> 
 ; Jack-in done.
 clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/test.clj:7:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.test꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:13:1).
-; Unable to resolve symbol: hello-boss in this context
+(com.stuartsierra.component.repl/reset)
+; :reloading (real-worl-clojure-app.config real-worl-clojure-app.ping real-worl-clojure-app.components.example-component real-worl-clojure-app.core real-worl-clojure-app.core-test)
+; :error-while-loading real-worl-clojure-app.core-test
+; Execution error at real-worl-clojure-app.core-test/eval9756$loading (core_test.clj:1).
+; No namespace: real-worl-clojure-app.core
+clj꞉real-worl-clojure-app.core꞉> (com.stuartsierra.component.repl/reset)
+; :reloading (real-worl-clojure-app.core-test)
+; Execution error (ExceptionInfo) at com.stuartsierra.component.repl/initializer (repl.clj:18).
+; initializer not set, did you call `set-init`?
 clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:13:1).
-; Unable to resolve symbol: hello-boss in this context
+(com.stuartsierra.component.repl/reset)
+; :reloading ()
+; Execution error (ExceptionInfo) at com.stuartsierra.component.repl/initializer (repl.clj:18).
+; initializer not set, did you call `set-init`?
 clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.core/-main]
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:1:8398).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:14:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:1:8398).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.core꞉> 
-""
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:14:1).
-; Unable to resolve symbol: hello-boss in this context
-clj꞉real-worl-clojure-app.core꞉> 
-(real-worl-clojure-app.config/read-config)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:312:1).
-; No such var: real-worl-clojure-app.config/read-config
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(:require [real-worl-clojure-app.config :as config]))
-(config/read-config)
-; Syntax error compiling at (.calva/output-window/output.calva-repl:321:1).
-; No such namespace: config
-clj꞉real-worl-clojure-app.core꞉> 
-(:require [real-worl-clojure-app.config :as config])
-
-; Syntax error (ClassNotFoundException) compiling at (.calva/output-window/output.calva-repl:325:1).
-; real-worl-clojure-app.config
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:16:3).
-; Unable to resolve symbol: read-config in this context
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:8:3).
-; No such namespace: config
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error (ClassNotFoundException) compiling at (src/real_worl_clojure_app/core.clj:1:8398).
-; real-worl-clojure-app.config.config
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error (ClassNotFoundException) compiling at (src/real_worl_clojure_app/config.clj:1:8398).
-; real-worl-clojure-app.config
-clj꞉real-worl-clojure-app.config꞉> 
-; Syntax error (ClassNotFoundException) compiling at (src/real_worl_clojure_app/core.clj:1:8398).
-; real-worl-clojure-app.config.config
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error (ClassNotFoundException) compiling at (src/real_worl_clojure_app/core.clj:1:8398).
-; real-worl-clojure-app.config.config
+(com.stuartsierra.component.repl/reset)
+; :reloading ()
+; Execution error (ExceptionInfo) at com.stuartsierra.component.repl/initializer (repl.clj:18).
+; initializer not set, did you call `set-init`?
 clj꞉real-worl-clojure-app.core꞉> 
 ; Jacking in...
 ; Connecting using "Leiningen" project type.
@@ -355,16 +189,9 @@ clj꞉real-worl-clojure-app.core꞉> 
 ;   - See https://calva.io/connect-sequences/
 ; 
 
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
 ; nREPL Connection was closed
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; Using host:port 127.0.0.1:36823 ...
+; Using host:port 127.0.0.1:41583 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
@@ -372,387 +199,17 @@ nil
 clj꞉real-worl-clojure-app.core꞉> 
 ; Jack-in done.
 clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.config/read-config]
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
 clj꞉real-worl-clojure-app.core꞉> 
-#function[real-worl-clojure-app.config/read-config]
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
 clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Reading configs from resouces/config.edn
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:40031 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-; Reading configs from resouces/config.edn
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:37183 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-(-main)
-clj꞉real-worl-clojure-app.core꞉> 
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(System/getenv "REAL_WORLD_CLOJURE_API_PORT")
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(System/getenv "REAL_WORLD_CLOJURE_API_PORT")
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:40781 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-(System/getenv "REAL_WORLD_CLOJURE_API_PORT")
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Starting Real World Clojure API Service
-; Reading configs from resouces/config.edn
-{:server {:port 3000}}
-clj꞉real-worl-clojure-app.core꞉> 
-(System/getenv "REAL_WORLD_CLOJURE_API_PORT")
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-(config/read-config)
-; Reading configs from resouces/config.edn
-; Execution error (NumberFormatException) at java.lang.NumberFormatException/forInputString (NumberFormatException.java:65).
-; For input string: "[3000]"
-clj꞉real-worl-clojure-app.core꞉> 
-(config/read-config)
-; Reading configs from resouces/config.edn
-{:server {:port 3000}}
-clj꞉real-worl-clojure-app.core꞉> 
-(System/getenv "REAL_WORLD_CLOJURE_API_PORT")
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:34691 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error (ClassNotFoundException) compiling at (src/real_worl_clojure_app/core.clj:1:8396).
-; real-worl-clojure-app.config
-clj꞉real-worl-clojure-app.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:35083 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:44917 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-#'real-worl-clojure-app.core/-main
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; CREATE SERVER
-; [nREPL-session-17b6741a-7be6-46ce-8ccd-353398b57ecc] INFO org.eclipse.jetty.util.log - Logging initialized @52905ms to org.eclipse.jetty.util.log.Slf4jLog
-; 
-; Execution error (NullPointerException) at io.pedestal.http/start (http.clj:387).
-; null
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; CREATE SERVER
-; Execution error (NullPointerException) at io.pedestal.http/start (http.clj:387).
-; null
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; CREATE SERVER
-; Execution error (NullPointerException) at io.pedestal.http/start (http.clj:387).
-; null
-clj꞉real-worl-clojure-app.core꞉> 
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:37191 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-(-main)
-(-main)
-clj꞉real-worl-clojure-app.core꞉> 
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:41557 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:34287 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Using host:port 127.0.0.1:34489 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-(-main)
-; Reading configs from resouces/config.edn
-; Starting Real World Clojure API Service with config {:server {:port 3000}}
-#:io.pedestal.http{:port 3000,
-                   :service-fn #function[io.pedestal.http.impl.servlet-interceptor/interceptor-service-fn/fn--12724],
-                   :host "localhost",
-                   :type :jetty,
-                   :start-fn #function[io.pedestal.http.jetty/server/fn--8326],
-                   :interceptors
-                   [{:name :io.pedestal.http/log-request,
-                     :enter #function[io.pedestal.interceptor.helpers/on-request/fn--9517],
-                     :leave nil,
-                     :error nil}
-                    {:name :io.pedestal.http/not-found,
-                     :enter nil,
-                     :leave #function[io.pedestal.interceptor.helpers/after/fn--9489],
-                     :error nil}
-                    {:name :io.pedestal.http.ring-middlewares/content-type-interceptor,
-                     :enter nil,
-                     :leave #function[io.pedestal.interceptor.helpers/after/fn--9489],
-                     :error nil}
-                    {:name :io.pedestal.http.route/query-params,
-                     :enter #function[io.pedestal.http.route/fn--10277],
-                     :leave nil,
-                     :error nil}
-                    {:name :io.pedestal.http.route/method-param,
-                     :enter #function[io.pedestal.http.route/method-param/fn--10282],
-                     :leave nil,
-                     :error nil}
-                    {:name :io.pedestal.http.secure-headers/secure-headers,
-                     :enter nil,
-                     :leave #function[io.pedestal.http.secure-headers/secure-headers/fn--11577],
-                     :error nil}
-                    {:name :io.pedestal.http.route/router,
-                     :enter #function[io.pedestal.http.route/fn--10267/fn--10268],
-                     :leave nil,
-                     :error nil}
-                    {:name :io.pedestal.http.route/path-params-decoder,
-                     :enter #function[io.pedestal.http.route/fn--10279],
-                     :leave nil,
-                     :error nil}],
-                   :routes
-                   ({:path "/ping",
-                     :method :get,
-                     :path-re #"/\Qping\E",
-                     :path-parts ["ping"],
-                     :interceptors
-                     [{:name nil, :enter #function[io.pedestal.interceptor/fn--234/fn--235], :leave nil, :error nil}],
-                     :route-name :ping,
-                     :path-params []}),
-                   :servlet
-                   #object[io.pedestal.http.servlet.FnServlet 0x43efa20f "io.pedestal.http.servlet.FnServlet@43efa20f"],
-                   :server
-                   #object[org.eclipse.jetty.server.Server 0x3ae5a4ef "Server@3ae5a4ef{STARTED}[9.4.52.v20230823]"],
-                   :join? false,
-                   :stop-fn #function[io.pedestal.http.jetty/server/fn--8328]}
-; 
-; [nREPL-session-c5a789db-1c4a-4b74-b0de-03489da650a1] INFO org.eclipse.jetty.util.log - Logging initialized @19919ms to org.eclipse.jetty.util.log.Slf4jLog
-; 
-; [nREPL-session-c5a789db-1c4a-4b74-b0de-03489da650a1] INFO org.eclipse.jetty.server.Server - jetty-9.4.52.v20230823; built: 2023-08-23T19:29:37.669Z; git: abdcda73818a1a2c705da276edb0bf6581e7997e; jvm 11.0.22+7-post-Ubuntu-0ubuntu222.04.1
-; 
-; [nREPL-session-c5a789db-1c4a-4b74-b0de-03489da650a1] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5c2d79b2{/,null,AVAILABLE}
-; 
-; [nREPL-session-c5a789db-1c4a-4b74-b0de-03489da650a1] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@75f2a88f{HTTP/1.1, (http/1.1, h2c)}{localhost:3000}
-; 
-; [nREPL-session-c5a789db-1c4a-4b74-b0de-03489da650a1] INFO org.eclipse.jetty.server.Server - Started @20429ms
-clj꞉real-worl-clojure-app.core꞉> 
-; [qtp2056776701-37] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-33] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-31] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-32] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-38] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-37] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-36] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-35] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-38] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-37] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-36] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-38] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; [qtp2056776701-37] INFO io.pedestal.http - {:msg "GET /ping", :line 80}
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; nREPL Connection was closed
-; Jacking in...
-; Connecting using "Leiningen" project type.
-; You can make Calva auto-select this.
-;   - See https://calva.io/connect-sequences/
-; 
-
-; Starting Jack-in Terminal: (cd /home/gabs/projects/real-worl-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
-; Using host:port 127.0.0.1:40001 ...
-; Hooking up nREPL sessions ...
-; Connected session: clj
-; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
-nil
-clj꞉real-worl-clojure-app.core꞉> 
-; Jack-in done.
-clj꞉real-worl-clojure-app.core꞉> 
-; Syntax error compiling at (src/real_worl_clojure_app/core.clj:1:8398).
-; Unable to resolve symbol: Real in this context
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
 clj꞉real-worl-clojure-app.core꞉> 
 (-main)
 ; Reading configs from resouces/config.edn
@@ -760,3 +217,160 @@ clj꞉real-worl-clojure-app.core꞉> 
 ; Starting Real World Clojure API Service  #<SystemMap>
 nil
 clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; :reloading (real-worl-clojure-app.config real-worl-clojure-app.ping real-worl-clojure-app.components.example-component real-worl-clojure-app.core real-worl-clojure-app.core-test)
+; :error-while-loading real-worl-clojure-app.core-test
+; Execution error at real-worl-clojure-app.core-test/eval11069$loading (core_test.clj:1).
+; No namespace: real-worl-clojure-app.core
+clj꞉real-worl-clojure-app.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:33881 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Jack-in done.
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:40143 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Jack-in done.
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl)
+; Syntax error (ClassNotFoundException) compiling at (.calva/output-window/output.calva-repl:278:1).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(component-repl)
+; Syntax error compiling at (.calva/output-window/output.calva-repl:282:1).
+; Unable to resolve symbol: component-repl in this context
+clj꞉real-worl-clojure-app.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:33441 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Jack-in done.
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:35157 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Jack-in done.
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+; Jacking in...
+; Connecting using "undefined" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Aborting jack-in. No project type selected.
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; nREPL Connection was closed
+; Using host:port 127.0.0.1:38235 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Jack-in done.
+clj꞉real-worl-clojure-app.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: (cd /home/gabs/projects/real-world-clojure-app; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:45617 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Jack-in done.
+clj꞉real-worl-clojure-app.core꞉> 
+(com.stuartsierra.component.repl/reset)
+; Execution error (ClassNotFoundException) at java.net.URLClassLoader/findClass (URLClassLoader.java:471).
+; com.stuartsierra.component.repl
+clj꞉real-worl-clojure-app.core꞉> 
+(-main)
+; Reading configs from resouces/config.edn
+; Starting ExampleComponent
+; Starting Real World Clojure API Service  #<SystemMap>
+nil
+clj꞉real-worl-clojure-app.core꞉> 
+; Stopping ExampleComponent
+; nREPL Connection was closed

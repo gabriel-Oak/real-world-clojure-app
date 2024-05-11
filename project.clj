@@ -7,7 +7,8 @@
                  [aero "1.1.6"]
                  [io.pedestal/pedestal.jetty "0.6.1"]
                  [org.slf4j/slf4j-simple "2.0.9"]
-                 [com.stuartsierra/component "1.1.0"]]
+                 [com.stuartsierra/component "1.1.0"]
+                 [com.stuartsierra/component.repl "0.2.0"]]
   :main ^:skip-aot real-worl-clojure-app.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
