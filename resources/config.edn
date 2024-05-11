@@ -1,0 +1,4 @@
+{:server
+ {:port #long #or [#env REAL_WORLD_CLOJURE_API_PORT #profile {:default 3000
+                                                              :dev 3001
+                                                              :prod 8080}]}}
