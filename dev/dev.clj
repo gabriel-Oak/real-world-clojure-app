@@ -1,4 +1,4 @@
-(ns real-worl-clojure-app.dev
+(ns dev
   (:gen-class)
   (:require [com.stuartsierra.component.repl :as component-repl]
             [real-worl-clojure-app.core :as core]
@@ -9,7 +9,7 @@
    (-> (config/read-config)
        (core/real-worl-clojure-app-system))))
 
-(defn reset 
+(defn reset
   []
   (component-repl/reset))
 

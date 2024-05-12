@@ -13,4 +13,6 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}
-             :dev {:main ^:skip-aot real-worl-clojure-app.dev}})
+             :dev {:main ^:skip-aot dev}}
+  :source-paths ["src" "src/main/clojure" "dev"]
+  )
