@@ -12,4 +12,5 @@
   :main ^:skip-aot real-worl-clojure-app.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
-                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}
+             :dev {:main ^:skip-aot real-worl-clojure-app.dev}})

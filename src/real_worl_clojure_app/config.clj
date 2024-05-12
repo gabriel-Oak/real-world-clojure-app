@@ -5,7 +5,6 @@
 
 (defn read-config
   []
-  (println "Reading configs from resouces/config.edn")
   (-> "config.edn"
       (io/resource)
       (aero/read-config)))
