@@ -1,30 +1,17 @@
 (ns real-worl-clojure-app.core
   (:gen-class)
-  (:require [real-worl-clojure-app.config :as config]
-            [real-worl-clojure-app.ping :as ping]
-            [io.pedestal.http :as http]
-            [io.pedestal.http.route :as route]
-            [com.stuartsierra.component :as component]
-            [real-worl-clojure-app.components.example-component :as example-component]))
-
-(def routes
-  (route/expand-routes
-   #{["/ping" :get ping/pong :route-name :ping]}))
-
-(defn create-server [config]
-  (http/create-server
-   {::http/routes routes
-    ::http/type :jetty
-    ::http/join? false
-    ::http/port (-> config :server :port)}))
-
-(defn start [config]
-  (http/start (create-server config)))
+  (:require [com.stuartsierra.component :as component] 
+            [real-worl-clojure-app.components.example-component :as example-component]
+            [real-worl-clojure-app.components.pedestal-component :as pedestal-component]
+            [real-worl-clojure-app.config :as config]))
 
 (defn real-worl-clojure-app-system
   [config]
   (component/system-map
-   :example-component (example-component/new-example-component config)))
+   :example-component (example-component/new-example-component config)
+   :pedestal-component (component/using
+                        (pedestal-component/new-pedestal-component config)
+                        [:example-component])))
 
 (defn -main
   []
